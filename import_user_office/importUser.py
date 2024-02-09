@@ -2,9 +2,9 @@ from msal import ConfidentialClientApplication
 import requests
 
 # Configurações de autenticação OAuth 2.0
-client_id = 'dae623ae-7289-4d63-a13d-96d8a1f7a7b4'
-client_secret = 'JoE8Q~Sp9sFcwLRMbu4CwtLLWThPidYx-gy56cdz'
-tenant_id = '3034a920-99d0-40c2-b3d1-45400f655256'
+client_id = ''
+client_secret = ''
+tenant_id = ''
 
 authority = f'https://login.microsoftonline.com/{tenant_id}'
 

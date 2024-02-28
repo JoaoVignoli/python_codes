@@ -122,8 +122,8 @@ def main(page: Page):
         page.clean()
         # Configurações de conexão
         server = Server('10.252.192.11')  # Substitua pelo endereço do servidor AD
-        username = 'guaca.infran1@redeunifique.com.br'  # Substitua pelo nome de usuário com permissões no AD
-        password = "USH)Z<4%HzaNp@'s_a^/"  # Substitua pela senha do usuário
+        username = ''  # Substitua pelo nome de usuário com permissões no AD
+        password = ""  # Substitua pela senha do usuário
 
         # Conectar ao servidor AD
         conn = Connection(server, user=username, password=password)
@@ -160,8 +160,8 @@ def main(page: Page):
     def Disable_Host(e):
         page.clean
         server = Server('10.252.192.11')  # Substitua pelo endereço do servidor AD
-        username = 'guaca.infran1@redeunifique.com.br'  # Substitua pelo nome de usuário com permissões no AD
-        password = "USH)Z<4%HzaNp@'s_a^/"  # Substitua pela senha do usuário
+        username = ''  # Substitua pelo nome de usuário com permissões no AD
+        password = ""  # Substitua pela senha do usuário
 
         # Conectar ao servidor AD
         conn = Connection(server, user=username, password=password)

@@ -5,10 +5,10 @@ from requests.auth import HTTPBasicAuth
 import json
 
 
-url_user = "https://homologunifique.acelerato.com/api/publica/usuarios"
-url_emails = "https://homologunifique.acelerato.com/api/publica/usuarios/emails"
-user = "joao.vignoli@redeunifique.com.br"
-password = "LKxXELXfvAAixQapypvBqQ=="
+url_user = ""
+url_emails = ""
+user = ""
+password = ""
 
 dir = os.path.dirname(os.path.abspath(__file__))
 path_csv = os.path.join(dir,"USER_AD_copy.csv")

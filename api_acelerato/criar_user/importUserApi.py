@@ -3,11 +3,13 @@ import os
 import pandas as pd
 import requests
 from requests.auth import HTTPBasicAuth
+from dotenv import load_dotenv
+load_dotenv(override=True)
 
 # DADOS DE ACESSO A API;
 url = f"https://atendimento.unifique.com.br/api/publica/usuarios"
-usuario = ""
-senha = ""
+usuario = os.getenv("USER_ACELERATO")
+senha = os.getenv("PASSWORD_ACELERATO")
 
 # DIRETÓRIO ATUAL DOS ARQUIVOS JSON E CSV
 dir = os.path.dirname(os.path.abspath(__file__))

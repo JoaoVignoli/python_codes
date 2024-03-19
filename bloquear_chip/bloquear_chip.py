@@ -12,7 +12,7 @@ dir_numeros = os.path.join(dir, "numeros.csv")
 numeros = pd.read_csv(dir_numeros,encoding="utf-8")
 logging.basicConfig(format="%(asctime)s:%(levelname)s:%(filename)s:%(message)s", filename="log_block_numbers.log", level=logging.INFO)
     
-url = "https://10.129.23.70:11443/CRM-ENTERPRISE-UNIFIQUE/faces/oracle/webcenter/portalapp/pages/home.jspx?_adf.ctrl-state=jb5ogs18g_4&_afrLoop=61035532392642808&_afrWindowMode=0&_afrWindowId=gr8zc5gu7_1#%40%3F_afrWindowId%3Dgr8zc5gu7_1%26_afrLoop%3D61035532392642808%26_afrWindowMode%3D0%26_adf.ctrl-state%3D6c1wdc8lc_4"
+url = ""
 user = ""
 password = ""
 
